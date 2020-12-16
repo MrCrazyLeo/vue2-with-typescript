@@ -20,12 +20,32 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### 目录结构
 
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+vue2-with-typescript
+├── README.md
+├── babel.config.js
+├── package-lock.json
+├── package.json
+├── public
+│ ├── favicon.ico
+│ └── index.html
+├── src
+│ ├── App.vue
+│ ├── assets
+│ │ └── logo.png
+│ ├── components
+│ │ └── HelloWorld.vue
+│ ├── main.ts
+│ ├── router
+│ │ └── index.ts
+│ ├── shims-tsx.d.ts
+│ ├── shims-vue.d.ts
+│ ├── store
+│ │ └── index.ts
+│ └── views
+│ ├── About.vue
+│ ├── Home.vue
+│ └── Test.vue
+├── tsconfig.json
+└── vue.config.js
