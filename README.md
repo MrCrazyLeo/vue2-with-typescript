@@ -24,28 +24,22 @@ npm run build
 
 vue2-with-typescript
 ├── README.md
+├── README2.md
 ├── babel.config.js
 ├── package-lock.json
 ├── package.json
 ├── public
-│ ├── favicon.ico
-│ └── index.html
+│   ├── favicon.ico
+│   └── index.html
 ├── src
-│ ├── App.vue
-│ ├── assets
-│ │ └── logo.png
-│ ├── components
-│ │ └── HelloWorld.vue
-│ ├── main.ts
-│ ├── router
-│ │ └── index.ts
-│ ├── shims-tsx.d.ts
-│ ├── shims-vue.d.ts
-│ ├── store
-│ │ └── index.ts
-│ └── views
-│ ├── About.vue
-│ ├── Home.vue
-│ └── Test.vue
+│   ├── App.vue
+│   ├── assets
+│   ├── components
+│   ├── main.ts
+│   ├── router
+│   ├── shims-tsx.d.ts
+│   ├── shims-vue.d.ts
+│   ├── store
+│   └── views
 ├── tsconfig.json
 └── vue.config.js
